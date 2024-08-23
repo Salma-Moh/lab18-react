@@ -4,7 +4,7 @@ import './home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Home = () => {
-    const { data: products, loading, error } = useFetch('https://lab18-react.vercel.app/products');
+    const { data: products, loading, error } = useFetch('http://localhost:5000/products');
     const [newProduct, setNewProduct] = useState({
         product_name: '',
         product_desc: '',
@@ -27,7 +27,7 @@ const Home = () => {
     const handleAddProduct = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch('https://lab18-react.vercel.app/products', {
+            const response = await fetch('http://localhost:5000/products', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -46,7 +46,7 @@ const Home = () => {
 
     const handleDeleteProduct = async (id) => {
         try {
-            const response = await fetch(`https://lab18-react.vercel.app/products/${id}`, {
+            const response = await fetch(`http://localhost:5000/products/${id}`, {
                 method: 'DELETE',
             });
             if (response.ok) {
