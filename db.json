@@ -27,6 +27,12 @@
       "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex odio labore exercitationem mollitia, a, consequuntur ut architecto illo quod natus adipisci hic! Ipsa a soluta fuga aliquid dolor harum.",
       "product_category": "Laptop",
       "id": "16fc"
+    },
+    {
+      "id": "7b46",
+      "product_name": "Hp",
+      "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex odio labore exercitationem mollitia, a, consequuntur ut architecto illo quod natus adipisci hic! Ipsa a soluta fuga aliquid dolor harum.",
+      "product_category": "Laptop"
     }
   ]
 }
