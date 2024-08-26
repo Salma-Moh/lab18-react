@@ -1,0 +1,18 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Product 1",
+            "price": "$99.99",
+            "description": "This is the first product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptate voluptatibus eveniet autem, omnis sapiente a aut natus libero exercitationem repudiandae iure eaque, alias, labore necessitatibus temporibus velit officia laborum.",
+            "imageUrl": "https://via.placeholder.com/150"
+        },
+        {
+            "id": 2,
+            "name": "Product 2",
+            "price": "$149.99",
+            "description": "This is the second product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptate voluptatibus eveniet autem, omnis sapiente a aut natus libero exercitationem repudiandae iure eaque, alias, labore necessitatibus temporibus velit officia laborum.",
+            "imageUrl": "https://via.placeholder.com/150"
+        }
+    ]
+}
