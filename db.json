@@ -1,57 +1,18 @@
 {
-<<<<<<< HEAD
-    "products": [
-        {
-            "id": 1,
-            "name": "Product 1",
-            "price": "$99.99",
-            "description": "This is the first product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptate voluptatibus eveniet autem, omnis sapiente a aut natus libero exercitationem repudiandae iure eaque, alias, labore necessitatibus temporibus velit officia laborum.",
-            "imageUrl": "https://via.placeholder.com/150"
-        },
-        {
-            "id": 2,
-            "name": "Product 2",
-            "price": "$149.99",
-            "description": "This is the second product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptate voluptatibus eveniet autem, omnis sapiente a aut natus libero exercitationem repudiandae iure eaque, alias, labore necessitatibus temporibus velit officia laborum.",
-            "imageUrl": "https://via.placeholder.com/150"
-        }
-    ]
-=======
   "products": [
     {
-      "product_id": 1,
-      "product_name": "Iphone 14",
-      "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex odio labore exercitationem mollitia, a, consequuntur ut architecto illo quod natus adipisci hic! Ipsa a soluta fuga aliquid dolor harum.",
-      "product_category": "Smart Phones",
-      "id": "f916"
+      "id": 1,
+      "name": "Product 1",
+      "price": "$99.99",
+      "description": "This is the first product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptate voluptatibus eveniet autem, omnis sapiente a aut natus libero exercitationem repudiandae iure eaque, alias, labore necessitatibus temporibus velit officia laborum.",
+      "imageUrl": "https://via.placeholder.com/150"
     },
     {
-      "product_id": 2,
-      "product_name": "Iphone 13 Pro Max",
-      "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex odio labore exercitationem mollitia, a, consequuntur ut architecto illo quod natus adipisci hic! Ipsa a soluta fuga aliquid dolor harum.",
-      "product_category": "Smart Phones",
-      "id": "063b"
-    },
-    {
-      "product_id": 3,
-      "product_name": "Apple",
-      "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex odio labore exercitationem mollitia, a, consequuntur ut architecto illo quod natus adipisci hic! Ipsa a soluta fuga aliquid dolor harum.",
-      "product_category": "Laptop",
-      "id": "0b6f"
-    },
-    {
-      "product_id": 4,
-      "product_name": "Dell",
-      "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex odio labore exercitationem mollitia, a, consequuntur ut architecto illo quod natus adipisci hic! Ipsa a soluta fuga aliquid dolor harum.",
-      "product_category": "Laptop",
-      "id": "16fc"
-    },
-    {
-      "id": "7b46",
-      "product_name": "Hp",
-      "product_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex odio labore exercitationem mollitia, a, consequuntur ut architecto illo quod natus adipisci hic! Ipsa a soluta fuga aliquid dolor harum.",
-      "product_category": "Laptop"
+      "id": 2,
+      "name": "Product 2",
+      "price": "$149.99",
+      "description": "This is the second product. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptate voluptatibus eveniet autem, omnis sapiente a aut natus libero exercitationem repudiandae iure eaque, alias, labore necessitatibus temporibus velit officia laborum.",
+      "imageUrl": "https://via.placeholder.com/150"
     }
   ]
->>>>>>> bb1fc59d7785745d625c8253e090eceb3fddf68b
 }
