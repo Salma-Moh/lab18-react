@@ -1,0 +1,43 @@
+.not-found-container {
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Full viewport height */
+}
+
+h1 {
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.not-found-cat {
+    max-width: 100%;
+    min-width: 40%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.go-back-button {
+    background-color: #00C389;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.go-back-button:hover {
+    background-color: #00A76B;
+}
