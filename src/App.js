@@ -1,16 +1,17 @@
+// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './components/home';
-import ProductDetail from './components/ProductDetails';
-import NotFoundPage from './components/NotFoundPage'; // Assuming you have a NotFoundPage component
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ProductList from './components/ProductList';
+import ProductDetails from './components/ProductDetails';
+import HelpCenter from './components/HelpCenter';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/products/:id" element={<ProductDetail />} />
-        <Route path="*" element={<NotFoundPage />} /> {/* This handles all undefined routes */}
+        <Route path="/" element={<ProductList />} />
+        <Route path="/product/:id" element={<ProductDetails />} />
+        <Route path="/help" element={<HelpCenter />} />
       </Routes>
     </Router>
   );
